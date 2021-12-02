@@ -8,7 +8,7 @@ def median(numbers):
     """
     This function return median of the given list of number
     """
-    number.sort()
+    numbers.sort()
 
     if len(numbers) %2 == 0:
         median1 = numbers[len(numbers)] // 2
